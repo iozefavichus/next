@@ -1,0 +1,13 @@
+.root {
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: grey;
+  color: black;
+  transition: all 0.3s ease-in-out;
+}
+
+.root:focus {
+    outline: none;
+  }

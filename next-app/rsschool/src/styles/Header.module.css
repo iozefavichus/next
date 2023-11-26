@@ -1,0 +1,28 @@
+.root {
+  position: relative;
+  min-height: 60px;
+  padding: 10px 0;
+  background-color: white;
+}
+
+.title {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.1;
+  text-transform: capitalize;
+  color: black;
+}
+
+.subtitle {
+  margin: 0;
+  font-size: 1rem;
+  color: black;
+}
+
+.error {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  z-index: 10;
+}
