@@ -1,9 +1,9 @@
 import { useState } from 'react';
-import { useAppSelector } from '@/hooks';
+import { useAppSelector } from '@/hooks/hooks';
 
 import SearchInput from './SearchInput';
 import Button from './Button';
-import styles from './Search.module.scss';
+import styles from '../styles/Search.module.css';
 
 interface Props {
   onSearch: (newValue: string) => void;

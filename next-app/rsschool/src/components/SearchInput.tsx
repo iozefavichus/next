@@ -1,4 +1,4 @@
-import styles from './SearchInput.module.scss';
+import styles from '../styles/SearchInput.module.css';
 
 interface Props {
   value: string;

@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 import { Photo } from '@/types/types';
-import { Spinner } from '@/components/Spinner';
+import Spinner from './Spinner';
 import styles from './Card.module.scss';
 
 interface Props extends Photo {
