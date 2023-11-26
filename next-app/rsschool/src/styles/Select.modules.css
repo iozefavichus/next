@@ -1,0 +1,9 @@
+.root {
+    position: relative;
+    padding: 3px 5px;
+    background-color: lightblue;
+    border: 1px solid gray;
+    border-radius: 5px;
+    overflow: hidden;
+    outline: none;
+  }
